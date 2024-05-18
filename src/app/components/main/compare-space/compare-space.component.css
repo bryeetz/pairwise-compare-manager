@@ -1,0 +1,12 @@
+.compare-space-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items with space between */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.compare-item {
+    width: calc(50% - 10px); /* Set width to 50% minus margin */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    /* Add additional styling as needed */
+}

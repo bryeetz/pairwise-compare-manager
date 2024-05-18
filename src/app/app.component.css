@@ -1,0 +1,6 @@
+@media screen and (min-width: 768px){
+    .main-component {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
